@@ -113,13 +113,13 @@ iframe{
     margin: auto;
   }
   .top h3{
-    padding-top: 20vh;
-    padding-bottom: 20vh;
+    padding-top: 35vh;
+    padding-bottom: 35vh;
     font-size: 4rem;
     width: 70%;
   }
   #prosjekter{
-    margin-top: 55vh;
+    margin-top: 85vh;
   }
   #prosjekter h2{
     font-size: 3rem;
@@ -128,14 +128,22 @@ iframe{
     font-size: 2rem;
   }
   .liste{
-    margin-top: 55vh;
     margin-bottom: 10vh;
     font-size: 3rem; 
     grid-template-columns: 1fr 1fr;
   }
+  #ingress{
+    margin-top: 85vh;
+    margin-bottom: 10vh;
+  }
 }
-@media (max-width: 800px){
+@media (max-width: 1000px){
   .liste{
     grid-template-columns: 1fr;
+    grid-gap: 100px;
+  }
+  #ingress{
+    margin-top: 85vh;
+    margin-bottom: 5vh;
   }
 }
