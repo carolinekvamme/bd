@@ -133,7 +133,7 @@ iframe{
     grid-template-columns: 1fr 1fr;
   }
   #ingress{
-    margin-top: 85vh;
+    margin-top: 80vh;
     margin-bottom: 10vh;
     font-size: 3rem;
   }
@@ -144,7 +144,7 @@ iframe{
     grid-gap: 100px;
   }
   #ingress{
-    margin-top: 85vh;
+    margin-top: 80vh;
     margin-bottom: 5vh;
   }
 }
