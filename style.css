@@ -75,12 +75,22 @@ iframe{
   font-weight: 400;
   margin: auto;
 }
+p{
+  margin-top: 95vh;
+  margin-bottom: 10vh;
+  text-align: center;
+}
 .liste{
   max-width: 70%;
   margin: auto;
-  margin-top: 100vh;
   margin-bottom: 10vh;
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
+.liste img{
+  width: 100%; 
 }
 @media (max-width: 1400px){
   header h1{
@@ -121,5 +131,11 @@ iframe{
     margin-top: 55vh;
     margin-bottom: 10vh;
     font-size: 3rem; 
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 800px){
+  .liste{
+    grid-template-columns: 1fr;
   }
 }
