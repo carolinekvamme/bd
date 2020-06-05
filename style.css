@@ -13,6 +13,10 @@ header{
 header h1{
   text-align: center;
 }
+main{
+  width: 80%;
+  margin: auto; ;
+}
 a{
   text-decoration: none;
   color: black;
@@ -26,8 +30,6 @@ a{
 #prosjekter{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 900px;
-  margin: auto;
   margin-top: 100vh;
   margin-bottom: 10vh;
   color: white;
@@ -81,8 +83,6 @@ iframe{
   text-align: center;
 }
 .liste{
-  max-width: 70%;
-  margin: auto;
   margin-bottom: 10vh;
   text-align: center;
   display: grid;
@@ -99,7 +99,7 @@ iframe{
     font-size: 4rem;
   }
   main{
-    width: 80%;
+    width: 90%;
     margin: auto;
   }
   .grow{
@@ -109,7 +109,7 @@ iframe{
     transform: none;
   }
   iframe{
-    width: 70%;
+    width: 90%;
     margin: auto;
   }
   .top h3{
@@ -135,6 +135,7 @@ iframe{
   #ingress{
     margin-top: 85vh;
     margin-bottom: 10vh;
+    font-size: 3rem;
   }
 }
 @media (max-width: 1000px){
