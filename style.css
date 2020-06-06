@@ -92,6 +92,104 @@ iframe{
 .liste img{
   width: 100%; 
 }
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    header h1{
+      margin-left: 30%;
+      margin-right: 30%;
+      font-size: 4rem;
+    }
+    main{
+      width: 90%;
+      margin: auto;
+    }
+    .grow{
+      transition: none;
+    }
+    .grow:hover{
+      transform: none;
+    }
+    iframe{
+      width: 90%;
+      margin: auto;
+    }
+    .top h3{
+      padding-top: 35vh;
+      padding-bottom: 35vh;
+      font-size: 4rem;
+      width: 70%;
+    }
+    #prosjekter h2{
+      font-size: 3rem;
+    }
+    #prosjekter p{
+      font-size: 2rem;
+    }
+    .liste{
+      grid-template-columns: 1fr;
+      grid-gap: 100px;
+    }
+    #ingress{
+      margin-top: 80vh;
+      margin-bottom: 5vh;
+    }
+    #prosjekter{
+      margin-top: 85vh;
+    }
+
+}
+
+/*@media (max-width: 1400px){
+  header h1{
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 4rem;
+  }
+  main{
+    width: 90%;
+    margin: auto;
+  }
+  .grow{
+    transition: none;
+  }
+  .grow:hover{
+    transform: none;
+  }
+  iframe{
+    width: 90%;
+    margin: auto;
+  }
+  .top h3{
+    padding-top: 35vh;
+    padding-bottom: 35vh;
+    font-size: 4rem;
+    width: 70%;
+  }
+  #prosjekter{
+    margin-top: 115vh;
+  }
+  #prosjekter h2{
+    font-size: 3rem;
+  }
+  #prosjekter p{
+    font-size: 2rem;
+  }
+  .liste{
+    margin-bottom: 10vh;
+    font-size: 3rem; 
+    grid-template-columns: 1fr 1fr;
+  }
+  #ingress{
+    margin-top: 115vh;
+    margin-bottom: 10vh;
+    font-size: 3rem;
+  }
+   
+
+}
+
 @media (max-width: 1400px){
   header h1{
     margin-left: 30%;
@@ -119,7 +217,7 @@ iframe{
     width: 70%;
   }
   #prosjekter{
-    margin-top: 85vh;
+    margin-top: 115vh;
   }
   #prosjekter h2{
     font-size: 3rem;
@@ -133,18 +231,23 @@ iframe{
     grid-template-columns: 1fr 1fr;
   }
   #ingress{
-    margin-top: 80vh;
+    margin-top: 115vh;
     margin-bottom: 10vh;
     font-size: 3rem;
   }
 }
-@media (max-width: 1000px){
+@media (max-width: 1399px){
   .liste{
     grid-template-columns: 1fr;
     grid-gap: 100px;
   }
   #ingress{
-    margin-top: 80vh;
+    margin-top: 110vh;
     margin-bottom: 5vh;
   }
 }
+@media (max-width: 900px){
+  #prosjekter{
+    margin-top: 85vh;
+  }
+}*/
